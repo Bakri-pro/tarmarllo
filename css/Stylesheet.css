@@ -1,0 +1,31 @@
+
+.header{background-color:firebrick; width: auto; height:10px;}
+
+
+
+//**start-navbar**//
+
+.navbar-brand img{padding-left:100px ;}
+.navbar-nav{padding-left:350px;}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active  {color: firebrick;}
+.cool-link::after{
+
+content:"";
+    display:block;
+    width:0;
+    height:2px;
+    background-color: firebrick;
+    transition:width .3s
+
+}
+
+.cool-link:hover::after{
+
+width:100%;
+    transition: width .3s;
+
+
+}
+.navbar-light .navbar-nav .nav-link:hover{color: firebrick;}
+
+//**end-navbar**//
